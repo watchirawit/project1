@@ -1,2 +1,1 @@
-print('kuy')
-print('foot test ')
+print(0b110)
