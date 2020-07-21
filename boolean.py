@@ -1,3 +1,6 @@
+t = True
+print(type(t))
 f = False
-type(f)
-print(f)
+print(type(f))
+x = 100.00
+print(type(x))
