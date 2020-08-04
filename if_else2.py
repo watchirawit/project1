@@ -1,4 +1,4 @@
-s1 = 'New york'
+s1 = 'Bew york'
 s2 = 'Boston'
 if s1 > s2:
     print(s2)
