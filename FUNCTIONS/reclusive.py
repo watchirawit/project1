@@ -4,8 +4,8 @@ def main():
     print('The factorial of',number,'is',fact)
 
 def factorial(num):
-    if num == 0:
+    if num <= 1:
         return 1
     else:
-        return num * factorial(num - 1)
+        return num + factorial(num - 1)
 main()

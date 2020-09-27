@@ -13,9 +13,8 @@ def main():
         emp_file.write('Name: ' + name + '\n')
         emp_file.write('ID: ' + id_num + '\n')
         emp_file.write('Dept: ' + dept + '\n')
-        print()
 
-        
+        print()
 
     emp_file.close()
     print('Employee records written to employees.txt')

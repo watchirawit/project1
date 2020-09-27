@@ -8,6 +8,6 @@ def main():
 
         print('Gross pay: $',format(gross_pay,',.2f'),sep='')
     except ValueError:
-        print('ERROR: Hours worked and hourly pay rate must')
+        print('ERROR: Hours workedd and hourly pay rate must')
         print('be valid integers.')
 main()

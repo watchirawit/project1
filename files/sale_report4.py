@@ -10,7 +10,7 @@ def main():
 
         infile.close()
 
-        
+        print(format(total, ',.2f'))
 
     except Exception as err:
         print(err)

@@ -1,5 +1,5 @@
 def main():
-    infile = open('files/philosophers.txt','r')
+    infile = open('philosophers.txt','r')
 
     file_contents = infile.read()
 
