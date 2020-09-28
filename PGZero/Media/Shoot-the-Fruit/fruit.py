@@ -1,6 +1,7 @@
 # Game Shoot the fruit
 import pgzrun
 from random import randint
+
 # define size of the windows
 WIDTH = 640
 HEIGHT = 480
@@ -58,6 +59,6 @@ def time_up():
         
     
 
-clock.schedule(time_up, 60.0)
+clock.schedule(time_up, 30.0)
 place_csgoh2()
 pgzrun.go()
